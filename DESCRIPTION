@@ -1,0 +1,30 @@
+Package: LewisLab11
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person(
+    "Peter", "Lewis",
+    role = c("aut", "cre"),
+    email = "peteredmundlewis@gmail.com",
+    comment = NULL
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
+Imports:
+    glue,
+    shiny,
+    dplyr,
+    ggplot2,
+    stats,
+    glue
+Depends: 
+    R (>= 3.5)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+

@@ -1,0 +1,18 @@
+---
+title: "Lab11Vin"
+author: "Peter Lewis"
+date: "2026-11-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(LewisLab11)
+```
+
+## Functions:
+
+ciNonSym():
+citest():
+dendiff():
+hdicalc():
